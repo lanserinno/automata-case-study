@@ -63,14 +63,13 @@
 
             // Add more rows only if numRows > 0
             if ($numRows > 0) {
-                $pascal[] = [1, 1];  // 1st row
-                // Generate remaining rows starting from 2nd row
+                $pascal[] = [1, 1];  
                 for ($i = 2; $i <= $numRows; $i++) {
-                    $newRow = [1]; // First element is always 1
+                    $newRow = [1]; 
                     for ($j = 1; $j < $i; $j++) {
                         $newRow[] = $pascal[$i - 1][$j - 1] + $pascal[$i - 1][$j];
                     }
-                    $newRow[] = 1; // Last element is always 1
+                    $newRow[] = 1; 
                     $pascal[] = $newRow;
                 }
             }
