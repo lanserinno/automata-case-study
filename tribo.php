@@ -20,11 +20,14 @@
         if ($n < 3) {
             return "Input must be 3 or greater.";
         }
-        $tribonacci = [0, 1, 1];
-        for ($i = 3; $i < $n; $i++) {
+        $tribonacci = [0, 0, 1, 1]; 
+        if ($n <= 4) {
+            return implode(", ", array_slice($tribonacci, 0, $n)); 
+        }
+        for ($i = 4; $i < $n; $i++) { 
             $tribonacci[] = $tribonacci[$i - 1] + $tribonacci[$i - 2] + $tribonacci[$i - 3];
         }
-        return implode(", ", $tribonacci);
+        return implode(", ", $tribonacci); 
     }
 
     $result = "";
@@ -82,7 +85,7 @@
                 </div>
             <?php else:
                 $tribonacci[] = 0;
-                $tribonacci[] = 1;
+                $tribonacci[] = 0;
                 $tribonacci[] = 1;
                 for ($i = 3; $i < $numTerms; $i++) {
                     $tribonacci[] = $tribonacci[$i - 1] + $tribonacci[$i - 2] + $tribonacci[$i - 3];
