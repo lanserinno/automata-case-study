@@ -32,7 +32,7 @@
                <li class="fw-bold fst-italic">Villena, Lans Clarence</li>
            </ul>
            <div class="mt-4 d-flex justify-content-end align-items-center">
-                <a href="../index.php" class="btn btn-danger btn-lg">Back to Menu</a>
+                <a href="/" class="btn btn-danger btn-lg">Back to Menu</a>
             </div>
         </div>
     </div>
