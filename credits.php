@@ -25,7 +25,7 @@
   <body>
     <div class="card position-absolute top-0 start-50 translate-middle-x" style="width: 800px; margin-top: 150px; background-color: #fbf3d5;">
         <div class="card-body">
-           <h2 class="fw-bold text-center" style="color: #6b2d1a">Contributors</h2>
+           <h2 class="fw-bold text-center" style="color: #6b2d1a">Members</h2>
            <ul>
                <li class="fw-bold fst-italic">Faustino, April Joy</li>
                <li class="fw-bold fst-italic">Hingco, John Harvey</li>
