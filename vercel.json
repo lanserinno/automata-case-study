@@ -1,9 +1,13 @@
 {
   "version": 2,
   "functions": {
-    "api/*.php": {
-      "runtime": "vercel-php@0.6.0"
-    }
+    "api/collatz.php": { "runtime": "vercel-php@0.6.0" },
+    "api/credits.php": { "runtime": "vercel-php@0.6.0" },
+    "api/eucli.php": { "runtime": "vercel-php@0.6.0" },
+    "api/fibonacci.php": { "runtime": "vercel-php@0.6.0" },
+    "api/lucas.php": { "runtime": "vercel-php@0.6.0" },
+    "api/pascal.php": { "runtime": "vercel-php@0.6.0" },
+    "api/tribo.php": { "runtime": "vercel-php@0.6.0" }
   },
   "routes": [
     {
